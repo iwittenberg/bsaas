@@ -8,6 +8,10 @@ fn index() -> String {
 
 #[get("/<length>")]
 fn shrug(length: usize) -> String {
+    if length > 200 {
+        return String::from("Why are you trying to kill this app...");
+    }
+
     let lines: Vec<String> = (1..=length)
         .map(|i: usize| {
             let left_spaces = if i == 1 { 0 } else { i };
