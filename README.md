@@ -110,6 +110,18 @@ See [`skills/bsaas/SKILL.md`](skills/bsaas/SKILL.md) for every option.
 ╚══════════════════════════╝
 ```
 
+**Emoji everything**: `shrug.py 5 --face 💀 --fill 🔥 --hands 🫴 --caption "deploy friday"`
+
+```
+🫴\🔥🔥🔥🔥🔥🔥🔥/🫴
+  \🔥🔥🔥🔥🔥🔥/
+   \🔥🔥🔥🔥🔥/
+    \🔥🔥🔥🔥/
+     \_(💀)_/
+
+   deploy friday
+```
+
 **The best shrug**: `shrug.py 12 --face cool --fill confetti --chaos --seed 42 --caption "peak indifference, achieved" --frame round`
 
 ```
