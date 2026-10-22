@@ -45,3 +45,88 @@ Or run the generator yourself:
     python3 skills/bsaas/scripts/shrug.py --list
 
 See [`skills/bsaas/SKILL.md`](skills/bsaas/SKILL.md) for every option.
+
+## Gallery
+
+**A PR with no description**: `shrug.py --face disapproval`
+
+```
+¯\_(ಠ_ಠ)_/¯
+```
+
+**Prod is down**: `shrug.py 5 --face dead --fill fire --caption "prod, 4:58pm friday" --frame round`
+
+```
+╭─────────────────────╮
+│ ¯\^^^^^^^^^^^^^^^/¯ │
+│   \^^^^^^^^^^^^^/   │
+│    \^^^^^^^^^^^/    │
+│     \^^^^^^^^^/     │
+│      \_(x_x)_/      │
+│                     │
+│ prod, 4:58pm friday │
+╰─────────────────────╯
+```
+
+**Mystery bug**: `shrug.py 6 --face flip --fill question --caption "works on my machine"`
+
+```
+¯\??????????????????/¯
+  \????????????????/
+   \??????????????/
+    \????????????/
+     \??????????/
+      \_(╯°□°)_/
+
+ works on my machine
+```
+
+**Friday afternoon**: `shrug.py 5 --face tired --fill zzz --caption "per my last message" --frame ascii`
+
+```
++-----------------------+
+| ¯\ Z z Z z Z z Z z /¯ |
+|   \Z z Z z Z z Z z/   |
+|    \ z Z z Z z Z /    |
+|     \z Z z Z z Z/     |
+|      \_(－_－)_/      |
+|                       |
+|  per my last message  |
++-----------------------+
+```
+
+**Budget season**: `shrug.py 6 --face smug --fill money --caption "q4 budget" --frame double`
+
+```
+╔══════════════════════════╗
+║ ¯\$$$$$$$$$$$$$$$$$$$$/¯ ║
+║   \$$$$$$$$$$$$$$$$$$/   ║
+║    \$$$$$$$$$$$$$$$$/    ║
+║     \$$$$$$$$$$$$$$/     ║
+║      \$$$$$$$$$$$$/      ║
+║       \_(￣ー￣)_/       ║
+║                          ║
+║        q4 budget         ║
+╚══════════════════════════╝
+```
+
+**The best shrug**: `shrug.py 12 --face cool --fill confetti --chaos --seed 42 --caption "peak indifference, achieved" --frame round`
+
+```
+╭────────────────────────────────────╮
+│ ¯\**·+++*✦*✦°***++✦✦*✦+✦°+°✦·*+°/¯ │
+│   \··++·**°*··✦·*°✦*°*✦·✦·✦+**+/   │
+│    \·*+*°·°·+··+·*✦+✦++°°·✦+·*/    │
+│     \+*·°·*+✦·+°°°+·++✦✦·✦°✦°/     │
+│      \·++✦°***++°✦*°°✦°✦·✦**/      │
+│       \✦··*·°+°*·✦+✦*·✦✦++·/       │
+│        \+✦✦*✦·°**··+*+✦**°/        │
+│         \*✦++°✦+·✦✦°+✦+·°/         │
+│          \·°✦°*++*·*✦✦+✦/          │
+│           \+***+**·*✦+·/           │
+│            \°+✦+✦✦°+°°/            │
+│             \_(⌐■_■)_/             │
+│                                    │
+│    peak indifference, achieved     │
+╰────────────────────────────────────╯
+```
